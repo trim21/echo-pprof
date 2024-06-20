@@ -12,9 +12,6 @@ func Wrap(e *echo.Echo) {
 	WrapGroup("", e.Group("/debug/pprof"))
 }
 
-// Wrapper make sure we are backward compatible.
-var Wrapper = Wrap
-
 // WrapGroup adds several routes from package `net/http/pprof` to *echo.Group object.
 func WrapGroup(prefix string, g *echo.Group) {
 	routers := []struct {

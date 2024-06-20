@@ -1,6 +1,6 @@
-module github.com/sevenNt/echo-pprof
+module github.com/trim21/echo-pprof
 
-go 1.17
+go 1.22
 
 require github.com/labstack/echo/v4 v4.9.1
 

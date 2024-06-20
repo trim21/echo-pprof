@@ -6,7 +6,7 @@ A wrapper for [Echo web framework](https://github.com/labstack/echo) to use `net
 ## Install
 
 ```sh
-go get -u github.com/sevenNt/echo-pprof
+go get -u github.com/trim21/echo-pprof
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ package main
 
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/sevenNt/echo-pprof"
+	"github.com/trim21/echo-pprof"
 )
 
 func main() {
